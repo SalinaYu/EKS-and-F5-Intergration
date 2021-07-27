@@ -60,4 +60,25 @@ without  ok this is fine
 __right__ `type something`  
 *this is bold*  
 **this should be bold**  
+
 ---  
+
+  
+I want to make another line
+
+---
+
+type something wrong incorrect 
+
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
+
+term
+: definition  
+
+~~The world is flat.~~
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media

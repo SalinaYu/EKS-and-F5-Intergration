@@ -37,27 +37,27 @@ when HTTP_REQUEST {
 
 1. number list
 
-```yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: nginx-service-nodeport
-  namespace: default
-  labels:
-    app: nginx
-    cis.f5.com/as3-tenant: nginx
-    cis.f5.com/as3-app: nginx_app
-    cis.f5.com/as3-pool: nginx_pool
-spec:
-  type: NodePort
-  selector:
-    app: nginx
-  ports:
-    - name: nginx
-      protocol: TCP
-      port: 80
-      targetPort: 80
-```
+        ```yaml
+        apiVersion: v1
+        kind: Service
+        metadata:
+        name: nginx-service-nodeport
+        namespace: default
+        labels:
+            app: nginx
+            cis.f5.com/as3-tenant: nginx
+            cis.f5.com/as3-app: nginx_app
+            cis.f5.com/as3-pool: nginx_pool
+        spec:
+        type: NodePort
+        selector:
+            app: nginx
+        ports:
+            - name: nginx
+            protocol: TCP
+            port: 80
+            targetPort: 80
+        ```
 this is testing
 without  ok this is fine  
 __right__ `type something`  

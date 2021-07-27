@@ -57,4 +57,7 @@ spec:
 ```
 this is testing
 without  ok this is fine  
-__right__ `type something`
+__right__ `type something`  
+*this is bold*  
+**this should be bold**  
+---  

@@ -23,7 +23,7 @@ There are 4 steps to install CIS **after** you have complete the prerequisites a
 3. Create K8S Cluster Role and Cluster Role Binding.
 4. Create the K8S CIS Deployment.
 
-Here are the steps that you need to take with sample scripts and example yaml files:
+**Deatiled Steps**:
 
 1\. Add BIG-IP Credentials as K8S Secrets. Replace `<username>` and `<password>` with your own credentials. 
 ```

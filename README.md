@@ -8,3 +8,7 @@ It will also handle the auto-configuration portion and make necessary changes to
 [What is F5 BIG-IP Container Ingress Services (CIS)?](https://github.com/SalinaYu/EKS-and-F5-Intergration/blob/main/docs/Overview%20of%20F5%20BIG-IP%20Container%20Ingress%20Services.md)
 
 [How to Install F5 BIG-IP CIS](https://github.com/SalinaYu/EKS-and-F5-Intergration/blob/main/docs/CIS%20Installation.md)
+
+[What is ConfigMap?](https://github.com/SalinaYu/EKS-and-F5-Intergration/blob/main/docs/ConfigMap.md)
+
+[How to Deploy ConfigMap](https://github.com/SalinaYu/EKS-and-F5-Intergration/blob/main/docs/ConfigMap%20Deployment.md)

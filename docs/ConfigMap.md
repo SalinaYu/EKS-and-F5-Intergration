@@ -91,7 +91,7 @@ As mentioned in the above figure, for CIS to process AS3 ConfigMap, ensure that 
 
 Label | Value | Description
 ------------ | ------------- | -------------
-as3 | true (or) false | When set to `true`, this tells CIS that this is a AS3 ConfigMap and processes it. When set to `false`, this tells CIS that you don’t want to usee AS3 ConfigMap, meaning you do not want CIS to process this ConfigMap temporarily until you reset this flag to true. If AS3 ConfigMap exists with flag flase, CIS will remove the respective configuration from BIG-IP. Meanwhile, you can make the necessary changes and save the ConfigMap within the K8S system.
+as3 | true (or) false | When set to `true`, this tells CIS that this is a AS3 ConfigMap and processes it. When set to `false`, this tells CIS that you don’t want to usee AS3 ConfigMap, meaning you do not want CIS to process this ConfigMap temporarily until you reset this flag to true. If AS3 ConfigMap exists with flag flase, CIS will remove the respective configuration from BIG-IP. Meanwhile, you can make the necessary changes and save the ConfigMap within the K8s system.
 f5type | virtual-server | This tells CIS that you want to create a virtual server on the BIG-IP device.
 
 > Important  

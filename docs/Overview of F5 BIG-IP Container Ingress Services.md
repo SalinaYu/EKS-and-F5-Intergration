@@ -44,4 +44,4 @@ The BIG-IP CIS also supports a cluster mode where Ingress traffic bypasses the K
 
 
 Continue reading [how to Install F5 BIG-IP CIS](https://github.com/SalinaYu/EKS-and-F5-Intergration/blob/main/docs/CIS%20Installation.md) or
-[back to the main page](https://github.com/SalinaYu/EKS-and-F5-Intergration#quick-start)
+[back to the main page](https://github.com/SalinaYu/EKS-and-F5-Intergration#quick-start).

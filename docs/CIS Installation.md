@@ -23,7 +23,7 @@ There are 4 steps to install CIS **after** you have complete the prerequisites a
 3. Create K8S Cluster Role and Cluster Role Binding.
 4. Create the K8S CIS Deployment.
 
-**Deatiled Steps**:
+**Detailed Steps**:
 
 1\. Add BIG-IP Credentials as K8S Secrets. Replace `<username>` and `<password>` with your own credentials. 
 ```
@@ -154,4 +154,4 @@ Push this configuration with the command:
 ```
 kubectl apply -f cis-deploy.yaml
 ```
-Continue reading [what is ConfigMap](https://github.com/SalinaYu/EKS-and-F5-Intergration/blob/main/docs/ConfigMap.md) or [back to the main page](https://github.com/SalinaYu/EKS-and-F5-Intergration#quick-start).
+Continue reading [what is ConfigMap](https://github.com/SalinaYu/EKS-and-F5-Intergration/blob/main/docs/ConfigMap.md) or [go back to the main page](https://github.com/SalinaYu/EKS-and-F5-Intergration#quick-start).

@@ -154,4 +154,4 @@ Push this configuration with the command:
 ```
 kubectl apply -f cis-deploy.yaml
 ```
-[Back to the main page](https://github.com/SalinaYu/EKS-and-F5-Intergration#quick-start)
+Continue reading [what is ConfigMap](https://github.com/SalinaYu/EKS-and-F5-Intergration/blob/main/docs/ConfigMap.md) or [back to the main page](https://github.com/SalinaYu/EKS-and-F5-Intergration#quick-start).

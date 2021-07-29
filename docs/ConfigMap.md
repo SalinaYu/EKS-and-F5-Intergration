@@ -112,4 +112,4 @@ args: [
 ]
 ```
 Continue reading [how to deploy ConfigMap](https://github.com/SalinaYu/EKS-and-F5-Intergration/blob/main/docs/ConfigMap%20Deployment.md) or
-[back to the main page](https://github.com/SalinaYu/EKS-and-F5-Intergration#quick-start).
+[go back to the main page](https://github.com/SalinaYu/EKS-and-F5-Intergration#quick-start).

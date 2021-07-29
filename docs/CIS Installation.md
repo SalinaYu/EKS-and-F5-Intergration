@@ -4,7 +4,7 @@ CIS can be configured in multiple ways depending on the customer scenario.
 
 CIS can be deployed on Kubernetes platform.  
 
-In this project, we are deploying CIS in [**NodePort**](https://github.com/SalinaYu/EKS-and-F5-Intergration/blob/main/Overview%20of%20F5%20BIG-IP%20Container%20Ingress%20Services.md#nodeport) mode on Kubernetes platform using EKS (Elastic Kubernetes Service) on AWS and have standalone BIG-IP running in the same Amazon VPC (Virtual Private Cloud). CIS is utilizing ConfigMap to configure the BIG-IP.  
+In this project, we are deploying CIS in [**NodePort**](https://github.com/SalinaYu/EKS-and-F5-Intergration/blob/main/docs/Overview%20of%20F5%20BIG-IP%20Container%20Ingress%20Services.md#nodeport) mode on Kubernetes platform using EKS (Elastic Kubernetes Service) on AWS and have standalone BIG-IP running in the same Amazon VPC (Virtual Private Cloud). CIS is utilizing ConfigMap to configure the BIG-IP.  
 
 
 ## Prerequisites  

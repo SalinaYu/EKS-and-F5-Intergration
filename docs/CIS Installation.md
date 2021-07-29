@@ -18,14 +18,14 @@ There are the mandatory requirements for deploying CIS:
 
 ## Installing CIS
 There are 4 steps to install CIS **after** you have complete the prerequisites above:  
-1. Create K8S Secrets.
-2. Create K8S Service Account.
-3. Create K8S Cluster Role and Cluster Role Binding.
-4. Create the K8S CIS Deployment.
+1. Create K8s Secrets.
+2. Create K8s Service Account.
+3. Create K8s Cluster Role and Cluster Role Binding.
+4. Create the K8s CIS Deployment.
 
 **Detailed Steps**:
 
-1\. Add BIG-IP Credentials as K8S Secrets. Replace `<username>` and `<password>` with your own credentials. 
+1\. Add BIG-IP Credentials as K8s Secrets. Replace `<username>` and `<password>` with your own credentials. 
 ```
 kubectl create secret generic bigip-login -n kube-system --from-literal=username=<username> --from-literal=password=<password>
 ```

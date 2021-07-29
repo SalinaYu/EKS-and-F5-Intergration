@@ -9,9 +9,9 @@ CIS uses the partition defined in the CIS configuration by default to communicat
 
 ## CIS Service Discovery
 There are 7 steps to deploy ConfigMap **after** you have complete the prerequisites above:  
-1. Update K8S Service configurations.
+1. Update K8s Service configurations.
 2. Make sure the backend application that is going to be served by the BIG-IP is running.
-3. Prepare K8S ConfigMap deployment.
+3. Prepare K8s ConfigMap deployment.
 4. AS3 ConfigMap becomes available for processing (behind the scene).
 5. CIS performs service discovery (behind the scene).
 6. After completing service discovery, CIS modifies the AS3 declaration by appending the discovered endpoints (behind the scene). 

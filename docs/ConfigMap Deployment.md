@@ -24,7 +24,7 @@ This procedural diagram depicts Service Discovery while processing ConfigMap in 
 > Important  
 From the above figure, for ConfigMap to properly function in CIS, configure the same tenant, application, and pool details for steps 1 and 3.
 
-**Detailed Steps**:
+**Detailed Steps**:  
 1\. Prepare and deploy the desired service (NodePort in this example) in Kubernetes. Make sure the below labels are configured:
 * `cis.f5.com/as3-tenant: Tenant-1`
 * `cis.f5.com/as3-app: APP1`

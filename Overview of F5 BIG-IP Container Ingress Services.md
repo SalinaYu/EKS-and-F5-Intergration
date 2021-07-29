@@ -13,8 +13,6 @@ CIS watches the [Kubernetes API](https://kubernetes.io/docs/concepts/overview/ku
 * Forward traffic from the BIG-IP device to Kubernetes clusters via [NodePort](https://kubernetes.io/docs/concepts/services-networking/service/#nodeport) or [ClusterIP](https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types).
 * Support [F5 AS3 Extension](https://clouddocs.f5.com/products/extensions/f5-appsvcs-extension/latest/) declarations.  
 
----
-
 ## Deployment Options
 These options are configured using 'pool-member-type' parameter in CIS deployment.
 

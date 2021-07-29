@@ -6,7 +6,6 @@ CIS can be deployed on Kubernetes platform.
 
 In this project, we are deploying CIS in [**NodePort**](https://github.com/SalinaYu/EKS-and-F5-Intergration/blob/main/Overview%20of%20F5%20BIG-IP%20Container%20Ingress%20Services.md#nodeport) mode on Kubernetes platform using EKS (Elastic Kubernetes Service) on AWS and have standalone BIG-IP running in the same Amazon VPC (Virtual Private Cloud). CIS is utilizing ConfigMap to configure the BIG-IP.  
 
----
 
 ## Prerequisites  
 There are the mandatory requirements for deploying CIS:
@@ -16,8 +15,6 @@ There are the mandatory requirements for deploying CIS:
 - AS3: 3.18+ must be installed on the BIG-IP system.
 - You need the credentials set, username and password, for the BIG-IP.
 <br/>
-
----
 
 ## Installing CIS
 There are 4 steps to install CIS **after** you have complete the prerequisites above:  
@@ -157,3 +154,4 @@ Push this configuration with the command:
 ```
 kubectl apply -f cis-deploy.yaml
 ```
+[Back to the main page](https://github.com/SalinaYu/EKS-and-F5-Intergration#quick-start)

@@ -40,6 +40,6 @@ This section documents K8S with integration of CIS and BIG-IP using clusterIP co
 
 The BIG-IP CIS also supports a cluster mode where Ingress traffic bypasses the Kube-proxy and routes traffic directly to the pod. This requires that the BIG-IP have the ability to route to the pod. This could be by using an overlay network that F5 supports (Flannel VXLAN, or OpenShift VXLAN). Leave the kube-proxy intact (no changes to underlying Kubernetes infrastructure).
 
-![](https://clouddocs.f5.com/containers/latest/_images/clusterip-diagram.png)
+![](https://clouddocs.f5.com/containers/latest/_images/clusterip-diagram.png)  
 
 [Back to the main page](https://github.com/SalinaYu/EKS-and-F5-Intergration#quick-start)

@@ -17,7 +17,7 @@ CIS watches the [Kubernetes API](https://kubernetes.io/docs/concepts/overview/ku
 These options are configured using 'pool-member-type' parameter in CIS deployment.
 
 ### NodePort
-This section documents K8S with integration of CIS and BIG-IP using NodePort configuration. Benefits of NodePort are:
+This section documents K8s with integration of CIS and BIG-IP using NodePort configuration. Benefits of NodePort are:
 
 * It works in any environment (no requirement for SDN)
 * No persistence/visibility to backend Pod
@@ -30,7 +30,7 @@ Similar to Docker, BIG-IP communicates with an ephemeral port, but in this case 
 When using NodePort, pool members represent the kube-proxy service on the node. BIG-IP needs a local route to the nodes. There is no need for VXLAN tunnels or Calico. BIG-IP can dynamically ARP for the Kube-proxy running on node.
 
 ### ClusterIP
-This section documents K8S with integration of CIS and BIG-IP using clusterIP configuration. Benefits of clusterIP are:
+This section documents K8s with integration of CIS and BIG-IP using clusterIP configuration. Benefits of clusterIP are:
 
 * Requires ability to route to Pod
 * Flannel VXLAN, OpenShift VXLAN
